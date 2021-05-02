@@ -5,6 +5,9 @@ import NavBar from './components/NavBar';
 import Header from './Header';
 import AboutMe from './AboutMe';
 import Contact from './Contact';
+import Services from './Services';
+import Blogs from './components/Blogs';
+import Projects from './Projects';
 
 function App() {
   return (
@@ -33,6 +36,9 @@ function App() {
      <NavBar></NavBar>
      <Header></Header>
      <AboutMe></AboutMe>
+     <Services></Services>
+     <Blogs></Blogs>
+     <Projects></Projects>
      <Contact></Contact>
     </div>
   );

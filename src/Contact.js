@@ -14,7 +14,7 @@ const Contact = () => {
     }
     return (
         <div>
-            <div className="container">
+            <div className="container bg-dark mt-5 mb-5">
             <form onSubmit={sendEmail}>
                     <div className="row pt-5 mx-auto">
                         <div className="col-8 form-group mx-auto">
